@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opsilot - Operations Automation for Lean Startups</title>
+    <title>Opsilot | AI Automation for Small Teams</title>
+    <meta
+      name="description"
+      content="Opsilot builds AI-powered workflows that remove repetitive admin tasks — without code, complexity, or new hires."
+    />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
     <link
@@ -17,13 +21,13 @@
       <div class="nav-container">
         <div class="nav-logo">
           <img src="opsilot.jpg" alt="Opsilot Logo" class="logo" />
+          <span class="logo-text">Opsilot</span>
         </div>
         <ul class="nav-menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="privacy-policy.html">Privacy</a></li>
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#case-studies">Case Studies</a></li>
+          <li><a href="#contact" class="btn-audit">Book Audit</a></li>
         </ul>
       </div>
     </nav>
@@ -32,164 +36,424 @@
     <section id="home" class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>Automate Your Operations, <br/ >Scale Your Startup</h1>
-          <p class="hero-subtitle">
-            Streamline workflows, reduce manual tasks, and focus on what matters
-            most - growing your business. Perfect for lean teams of 10-20
-            people.
+          <div class="hero-left">
+            <h1>Automate your work.<br />Save hours every week.</h1>
+            <p class="hero-emotional-hook">
+              Turn busywork into background noise so your team can focus on
+              growth.
+            </p>
+            <p class="hero-subtitle">
+              Opsilot builds AI-powered workflows that remove repetitive admin
+              tasks — without code, complexity, or new hires.
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn-primary"
+                >Book Your Free Audit Call</a
+              >
+              <p class="cta-description">
+                Discover where your team can reclaim 5–10 hours each week with
+                custom AI automations.
+              </p>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-animation">
+              <div class="workflow-diagram">
+                <div class="workflow-step">
+                  <div class="step-icon">📧</div>
+                  <div class="step-label">Email</div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                  <div class="step-icon">🤖</div>
+                  <div class="step-label">AI Process</div>
+                </div>
+                <div class="workflow-arrow">→</div>
+                <div class="workflow-step">
+                  <div class="step-icon">✅</div>
+                  <div class="step-label">Done</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section id="solutions" class="solutions">
+      <div class="container">
+        <h2>What We Do</h2>
+        <div class="solutions-grid">
+          <div class="solution-card">
+            <div class="solution-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+                />
+                <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+                <path d="M12 11h4" />
+                <path d="M12 16h4" />
+                <path d="M8 11h.01" />
+                <path d="M8 16h.01" />
+              </svg>
+            </div>
+            <h3>Client & Lead Follow-Up Automation</h3>
+            <p>
+              Automatically nurture leads, send follow-up emails, and track
+              client interactions without manual effort. Never miss a potential
+              deal again.
+            </p>
+            <a href="#case-studies" class="solution-link">See example →</a>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path
+                  d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+                />
+                <polyline points="14,2 14,8 20,8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10,9 9,9 8,9" />
+              </svg>
+            </div>
+            <h3>Meeting Notes → Task Sync</h3>
+            <p>
+              Transform meeting recordings into actionable tasks, automatically
+              assign them to team members, and sync with your project management
+              tools.
+            </p>
+            <a href="#case-studies" class="solution-link">See example →</a>
+          </div>
+          <div class="solution-card">
+            <div class="solution-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M3 3v18h18" />
+                <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3" />
+              </svg>
+            </div>
+            <h3>Reporting & Proposal Generation</h3>
+            <p>
+              Generate client reports, proposals, and analytics dashboards
+              automatically from your existing data sources. Save hours on admin
+              work.
+            </p>
+            <a href="#case-studies" class="solution-link">See example →</a>
+          </div>
+        </div>
+        <div class="persona-clarification">
+          <p>
+            Built for small teams, agencies, and solo founders who want leverage
+            without adding headcount.
           </p>
-          <div class="hero-buttons">
-            <a href="#contact" class="btn-primary">Get Started</a>
-            <a href="#features" class="btn-secondary">Learn More</a>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
+    <!-- Tools We Work With Section -->
+    <section class="tools-section">
       <div class="container">
-        <h2>Why Choose Opsilot?</h2>
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-icon">⚡</div>
-            <h3>Done-for-You Automation</h3>
-            <p>
-              We don’t just give you tools, we build custom automations for you.
-              Just tell us where the bottlenecks are, and we’ll take care of the
-              rest.
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🧩</div>
-            <h3>Seamless Integration</h3>
-            <p>
-              We plug directly into your existing systems and workflows, no need
-              to rip anything out. You stay in control, we handle the heavy
-              lifting.
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">📈</div>
-            <h3>Insight-Driven Optimization</h3>
-            <p>
-              During our kickoff call, we identify where time is wasted. Then we
-              automate and optimize with measurable results.
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🔒</div>
-            <h3>Privacy First</h3>
-            <p>
-              No overreach. We follow industry best practices to keep your data
-              safe and workflows reliable without unnecessary access.
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">🤝</div>
-            <h3>Built for Humans</h3>
-            <p>
-              No dashboards to learn, no jargon. We deliver results in your
-              language with clear documentation and support.
-            </p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-icon">💡</div>
-            <h3>Start Small, Scale Fast</h3>
-            <p>
-              We focus on quick wins first. You get value in days, not months,
-              then we scale up automations as your business grows.
-            </p>
-          </div>
+        <h3>Opsilot connects the tools you already use</h3>
+        <div class="tools-logos">
+          <div class="tool-logo">Notion</div>
+          <div class="tool-logo">Slack</div>
+          <div class="tool-logo">ClickUp</div>
+          <div class="tool-logo">Gmail</div>
+          <div class="tool-logo">Google Sheets</div>
+          <div class="tool-logo">Make.com</div>
+          <div class="tool-logo">ChatGPT</div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
       <div class="container">
-        <div class="about-content">
-          <div class="about-text">
-            <h2>Built for Lean Startups</h2>
-            <p>
-              We understand the challenges of running a lean startup. Every
-              minute counts, every dollar matters, and every team member wears
-              multiple hats.
-            </p>
-            <p>
-              Opsilot was designed specifically for teams of 10-20 people who
-              need enterprise-level automation without the enterprise complexity
-              or cost.
-            </p>
-            <ul class="about-benefits">
-              <li>✅ No technical expertise required</li>
-              <li>✅ Scales with your team growth</li>
-              <li>✅ Integrates with 100+ popular tools</li>
-              <li>✅ 24/7 support from automation experts</li>
-            </ul>
-          </div>
-          <div class="about-stats">
-            <div class="stat">
-              <h3>500+</h3>
-              <p>Startups Trust Us</p>
-            </div>
-            <div class="stat">
-              <h3>60%</h3>
-              <p>Cost Reduction</p>
-            </div>
-            <div class="stat">
-              <h3>10hrs</h3>
-              <p>Saved Per Week</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Ready to Automate Your Operations?</h2>
-        <p>
-          Join hundreds of lean startups already saving time and money with
-          Opsilot.
+        <h2>Choose your automation package</h2>
+        <p class="pricing-subtitle">Starting at €499</p>
+        <p class="pricing-compare">
+          Not sure which fits? Start with the Sprint — upgrade anytime.
         </p>
-        <div class="contact-info">
-          <div class="contact-methods">
-            <div class="contact-method">
-              <h3>Get in Touch</h3>
-              <div class="contact-cta">
-                <a
-                  href="mailto:opsilot@gmail.com?subject=Interested in Opsilot Operations Automation&body=Hi Opsilot team,%0A%0AI'm interested in learning more about your operations automation solutions for my startup.%0A%0ACompany: %0ATeam Size: %0A%0APlease get in touch!%0A%0ABest regards,"
-                  class="btn-primary"
-                >
-                  Contact Us
-                </a>
+        <div class="pricing-grid">
+          <div class="pricing-card pricing-sprint">
+            <div class="pricing-header">
+              <h3>€499 Sprint</h3>
+              <div class="pricing-badge">Most Popular</div>
+            </div>
+            <p class="pricing-description">
+              Perfect for testing automation with one key workflow
+            </p>
+            <ul class="pricing-features">
+              <li>1 automated workflow</li>
+              <li>Setup & configuration</li>
+              <li>2 weeks delivery</li>
+              <li>Basic documentation</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#contact" class="btn-primary">Book Your Free Audit Call</a>
+            <p class="pricing-note">Upgrade anytime</p>
+          </div>
+          <div class="pricing-card pricing-featured">
+            <div class="pricing-header">
+              <h3>€997 Full Setup</h3>
+            </div>
+            <p class="pricing-description">
+              Complete automation overhaul for maximum time savings
+            </p>
+            <ul class="pricing-features">
+              <li>3-5 automated workflows</li>
+              <li>Custom integrations</li>
+              <li>4 weeks delivery</li>
+              <li>Complete documentation</li>
+              <li>Priority support</li>
+              <li>30-day optimization</li>
+            </ul>
+            <a href="#contact" class="btn-primary">Book Your Free Audit Call</a>
+            <p class="pricing-note">Upgrade anytime</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+      <div class="container">
+        <h2>Case Studies</h2>
+
+        <div class="case-study">
+          <div class="case-study-content">
+            <div class="case-study-text">
+              <div class="case-problem">
+                <h4>Problem</h4>
+                <p>
+                  Marketing agency spent 25 hours/month manually following up
+                  with leads and updating CRM records.
+                </p>
+              </div>
+              <div class="case-solution">
+                <h4>Solution</h4>
+                <p>
+                  Automated lead scoring, email sequences, and CRM updates based
+                  on website behavior and email engagement.
+                </p>
+              </div>
+              <div class="case-result">
+                <h4>Result</h4>
+                <p>
+                  <strong>25h/month saved</strong> • 40% increase in lead
+                  conversion • Zero manual data entry
+                </p>
               </div>
             </div>
-            <div class="contact-method">
-              <h3>Follow Us</h3>
-              <div class="social-links">
-                <a
-                  href="https://www.linkedin.com/company/opsilot/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="linkedin-link"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 640 640"
-                    class="linkedin-icon"
-                  >
-                    <path
-                      d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"
-                    />
-                  </svg>
-                  <span>LinkedIn</span>
-                </a>
+            <div class="case-study-visual">
+              <div class="case-metric-chart">
+                <div class="metric-bar">
+                  <div class="metric-fill" style="width: 85%"></div>
+                </div>
+                <div class="metric-label">25h/month saved</div>
+              </div>
+              <div class="tools-used">
+                <span class="tool-badge">Slack</span>
+                <span class="tool-badge">HubSpot</span>
+                <span class="tool-badge">ChatGPT</span>
               </div>
             </div>
           </div>
+          <div class="case-testimonial">
+            <p>
+              <em
+                >"Opsilot's setup replaced three manual steps with one automated
+                flow — total game changer."</em
+              >
+            </p>
+            <cite>— Agency COO</cite>
+          </div>
+          <a href="#contact" class="case-study-link">See how we did it →</a>
+        </div>
+
+        <div class="case-study case-study-reverse">
+          <div class="case-study-content">
+            <div class="case-study-visual">
+              <div class="case-metric-chart">
+                <div class="metric-bar">
+                  <div class="metric-fill" style="width: 75%"></div>
+                </div>
+                <div class="metric-label">40% workload reduction</div>
+              </div>
+              <div class="tools-used">
+                <span class="tool-badge">Google Sheets</span>
+                <span class="tool-badge">Notion</span>
+                <span class="tool-badge">Make.com</span>
+              </div>
+            </div>
+            <div class="case-study-text">
+              <div class="case-problem">
+                <h4>Problem</h4>
+                <p>
+                  SaaS startup's customer success team manually created weekly
+                  reports from 5 different data sources.
+                </p>
+              </div>
+              <div class="case-solution">
+                <h4>Solution</h4>
+                <p>
+                  Built automated dashboard that pulls data from all sources and
+                  generates client-ready reports every Monday.
+                </p>
+              </div>
+              <div class="case-result">
+                <h4>Result</h4>
+                <p>
+                  <strong>40% workload reduction</strong> • Consistent reporting
+                  • More time for strategic work
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="case-testimonial">
+            <p>
+              <em
+                >"Now our reports generate automatically every Monday. We went
+                from 8 hours of manual work to zero."</em
+              >
+            </p>
+            <cite>— SaaS Founder</cite>
+          </div>
+          <a href="#contact" class="case-study-link">See how we did it →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <div class="step-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M9 11H5a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h4" />
+                <path d="M9 7H3a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h6" />
+                <path d="M21 7H11a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h10" />
+                <path d="M21 17H11a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h10" />
+              </svg>
+            </div>
+            <h3>Audit</h3>
+            <p>
+              We analyze your current workflows and identify the biggest
+              time-wasters in your operations.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <div class="step-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+            </div>
+            <h3>Sprint</h3>
+            <p>
+              We build and deploy your custom automations in 2-4 weeks, with
+              regular check-ins and updates.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <div class="step-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <h3>Support</h3>
+            <p>
+              Ongoing monitoring, optimization, and support to ensure your
+              automations keep running smoothly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Opsilot Section -->
+    <section id="why-opsilot" class="why-opsilot">
+      <div class="container">
+        <h2>Why Opsilot</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Speed over theory</h3>
+            <p>Quick wins and practical results, not lengthy consultations.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🔧</div>
+            <h3>No-code friendly</h3>
+            <p>Built for teams without technical expertise or IT knowledge.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🔒</div>
+            <h3>Private & secure</h3>
+            <p>Industry-standard security with minimal access requirements.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">💰</div>
+            <h3>Real ROI</h3>
+            <p>Measurable time savings that pay for themselves within weeks.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="contact" class="final-cta">
+      <div class="container">
+        <h2>Ready to save time with AI — without hiring developers?</h2>
+        <div class="cta-content">
+          <a
+            href="mailto:contact@opsilot.com?subject=Free Automation Audit Request&body=Hi Opsilot team,%0A%0AI'd like to book a free automation audit for my team.%0A%0ACompany: %0ATeam Size: %0ABiggest time-waster: %0A%0APlease get in touch!%0A%0ABest regards,"
+            class="btn-primary-large"
+            >Book Your Free Audit Call</a
+          >
+          <p class="cta-description">
+            We'll identify your biggest time-sink and show exactly how to
+            automate it.
+          </p>
+        </div>
+        <div class="trust-line">
+          <p>
+            Trusted by early-stage founders, small agencies, and remote teams.
+          </p>
         </div>
       </div>
     </section>
@@ -198,23 +462,40 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
-          <div class="footer-logo"></div>
+          <div class="footer-logo">
+            <img src="opsilot.jpg" alt="Opsilot Logo" class="logo" />
+            <span class="logo-text">Opsilot</span>
+          </div>
           <div class="footer-links">
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
             <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="privacy-policy.html">Terms</a>
+            <a href="mailto:contact@opsilot.com">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/company/opsilot/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>
-            &copy; 2025 Opsilot. All rights reserved. Your friendly operations
-            automator.
-          </p>
+          <p>&copy; 2025 Opsilot. All rights reserved.</p>
         </div>
       </div>
     </footer>
+
+    <!-- Floating CTA -->
+    <div id="floating-cta" class="floating-cta">
+      <a href="#contact" class="btn-floating">Book Your Free Audit Call</a>
+    </div>
 
     <script>
       // Smooth scrolling for navigation links
@@ -225,6 +506,29 @@
             behavior: "smooth",
           });
         });
+      });
+
+      // Floating CTA functionality
+      const floatingCta = document.getElementById("floating-cta");
+      let hasScrolled50Percent = false;
+
+      window.addEventListener("scroll", () => {
+        const scrollPercent =
+          (window.scrollY /
+            (document.documentElement.scrollHeight - window.innerHeight)) *
+          100;
+
+        if (scrollPercent > 50 && !hasScrolled50Percent) {
+          hasScrolled50Percent = true;
+          floatingCta.classList.add("show");
+        }
+
+        // Hide when near contact section
+        const contactSection = document.getElementById("contact");
+        const contactRect = contactSection.getBoundingClientRect();
+        if (contactRect.top < window.innerHeight) {
+          floatingCta.classList.remove("show");
+        }
       });
     </script>
   </body>
