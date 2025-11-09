@@ -1027,3 +1027,89 @@ html {
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
 }
+
+/* Thank You Page */
+.thank-you-section {
+  padding: 120px 0 80px;
+  background-color: #ffffff;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.thank-you-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.thank-you-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.thank-you-message {
+  font-size: 1.25rem;
+  color: #4a5568;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.thank-you-instructions {
+  background: rgba(59, 130, 246, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  margin: 40px 0;
+  border-left: 4px solid #3b82f6;
+}
+
+.thank-you-instructions p {
+  font-size: 1.125rem;
+  color: #4a5568;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.thank-you-instructions p:last-child {
+  margin-bottom: 0;
+}
+
+.thank-you-signature {
+  font-size: 1.125rem;
+  color: #6b7280;
+  font-style: italic;
+  margin: 40px 0 30px;
+}
+
+.thank-you-actions {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .thank-you-content {
+    padding: 40px 30px;
+  }
+
+  .thank-you-content h1 {
+    font-size: 2rem;
+  }
+
+  .thank-you-message {
+    font-size: 1.125rem;
+  }
+
+  .thank-you-instructions {
+    padding: 24px 20px;
+  }
+
+  .thank-you-instructions p {
+    font-size: 1rem;
+  }
+}
