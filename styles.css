@@ -657,10 +657,10 @@ body {
 }
 
 .step-icon {
-  width: 48px;
-  height: 48px;
+  width: 80px;
+  height: 80px;
   margin: 0 auto 20px;
-  color: #6b7280;
+  color: #3b82f6;
 }
 
 .step-icon svg {
